@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .overlay{
+            height: 400px;
+            background-image: url('./assets/hero-bg.png');
+            /* background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(./assets/hero-bg.png); */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .overlay-div{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 225, 0.7);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="overlay">
+        <div class="overlay-div">something new</div>
+    </section>
+</body>
+</html>
